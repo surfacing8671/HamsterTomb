@@ -2,7 +2,7 @@ const HamsterGenesisRewardPool = artifacts.require('HamsterGenesisRewardPool');
 const MockedComissionToken = artifacts.require('MockedComissionToken');
 
 module.exports = async (deployer, network) => {
-  const HAMSTER = '';
+  const HAMSTER = '0x6a49CAb7b787A810184b08816B46F01e27e46FF7';
   let comissionTokens = [];
   const COMISSION_PERCENT = '100'; // 1%
   const HAMSTER_GENESIS_POOL_START_TIME = '0';
